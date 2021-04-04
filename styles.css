@@ -1,0 +1,177 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  margin: 200px;
+}
+
+.main .col-1 {
+  background: hsl(31, 77%, 52%);
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 10px 0 0 10px;
+}
+
+.main .col-2 {
+  background: hsl(184, 100%, 22%);
+  font-family: "Lexend Deca", sans-serif;
+}
+.main .col-3 {
+  background: hsl(179, 100%, 13%);
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 0px 10px 10px 0;
+}
+
+.main .head-title {
+  font-family: "Big Shoulders Display", cursive;
+  margin: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main p {
+  padding-left: 30px;
+  margin-bottom: 70px;
+  color: rgba(255, 251, 251, 0.7);
+  margin-right: 10px;
+}
+
+.main li {
+  display: flex;
+  list-style-type: none;
+  background: white;
+  border-radius: 20px;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border: white 2px solid;
+}
+
+.main a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.main svg {
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.main .li3 {
+  margin-top: 55px;
+}
+
+.main .a1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.main .a2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.main .a3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.main .li1:hover {
+  background: hsl(31, 77%, 52%);
+}
+
+.main .a1:hover {
+  color: white;
+}
+
+.main .li2:hover {
+  background: hsl(184, 100%, 22%);
+}
+
+.main .a2:hover {
+  color: white;
+}
+
+.main .li3:hover {
+  background: hsl(179, 100%, 13%);
+}
+
+.main .a3:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 375px) {
+  .main {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    padding-left: 30px;
+    margin-left: 0;
+    padding-right: 30px;
+  }
+
+  .main .col-1 {
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+
+  .main .col-2 {
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .main .col-3 {
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+
+  .main svg {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .main .head-title {
+    margin: 25px;
+    margin-top: 10px;
+  }
+
+  .main li {
+    margin: 0;
+  }
+
+  .main p {
+    margin-bottom: 30px;
+  }
+
+  .main .li1 {
+    margin: 20px;
+    width: 130px;
+    margin-bottom: 40px;
+  }
+
+  .main .li2 {
+    margin: 20px;
+    width: 130px;
+    margin-bottom: 40px;
+  }
+
+  .main .li3 {
+    margin: 20px;
+    width: 130px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+}
